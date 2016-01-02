@@ -6,6 +6,7 @@ jdk:
 cache:
   directores:
     - $HOME/.gradle
+    - .gradle
 script:
   - ./gradlew build
 notifications:
