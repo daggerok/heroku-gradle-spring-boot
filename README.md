@@ -1,5 +1,5 @@
-Heroku
-======
+heroku-gradle-spring-boot [![build](https://api.travis-ci.org/daggerok/heroku-gradle-spring-boot.svg?branch=master)](https://travis-ci.org/daggerok/heroku-gradle-spring-boot) 
+=========================
 
 deploy simple spring cloud config app on heroku
 
