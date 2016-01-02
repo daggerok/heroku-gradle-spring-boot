@@ -32,5 +32,5 @@ task stage {
 }
 
 jar {
-	baseName = 'com.daggerok.heroku.cloud.spring.config'
+	baseName = 'app'
 }
