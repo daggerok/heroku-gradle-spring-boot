@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Dserver.port=$PORT -jar build/libs/com.daggerok.heroku.cloud.spring.config.jar
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar build/libs/app.jar
