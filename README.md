@@ -35,10 +35,11 @@ git init
 
 ```shell
 heroku login
+heroku create
 git push heroku master
 # wait until you see kind of:
 # https://some-words-numbers.herokuapp.com/ deployed to Heroku
-heroku open # and update url to $openedUrl/application/master
+heroku open
 ```
 
 - list apps
