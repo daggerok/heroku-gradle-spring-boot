@@ -4,8 +4,9 @@ buildscript {
 		gradleDockerVer = '1.2'
 	}
 	repositories { jcenter() }
-	dependencies { classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}",
-		"se.transmode.gradle:gradle-docker:${gradleDockerVer}" }
+	dependencies {
+    classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}",
+		          "se.transmode.gradle:gradle-docker:${gradleDockerVer}" }
 }
 
 apply plugin: 'java'
